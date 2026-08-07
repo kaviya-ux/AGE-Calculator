@@ -1,7 +1,8 @@
 # ⏳ Age Calculator
 <img width="544" height="442" alt="image" src="https://github.com/user-attachments/assets/fad99073-247f-4f20-ade0-241885677b01" />
 <br />
-##   📖 About
+
+## 📖 About
 The Age Calculator is a simple web application that calculates a user's exact age based on their date of birth. It displays the age in years, months, and days using JavaScript.
 
 ## ✨ Features
