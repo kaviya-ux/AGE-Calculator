@@ -14,7 +14,6 @@ The Age Calculator is a simple web application that calculates a user's exact ag
 
 ## 🛠️ Technologies Used
 - HTML5
-- CSS3
 - JavaScript
 
 ## 🚀 How to Use
