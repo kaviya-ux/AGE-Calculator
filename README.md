@@ -22,11 +22,3 @@ The Age Calculator is a simple web application that calculates a user's exact ag
 2. Click the **Calculate Age** button.
 3. View your exact age in years, months, and days.
 
-## 📂 Project Structure
-```
-Age-Calculator/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-```
