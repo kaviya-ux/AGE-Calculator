@@ -57,8 +57,4 @@ That's it — no server or dependencies needed.
 └── README.md        # Project documentation
 ```
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ⭐ If you found this project useful, consider giving it a star on GitHub!
