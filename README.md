@@ -13,7 +13,7 @@ A simple, clean, and responsive web app that calculates your exact age from your
 - ⚡ Zero dependencies — pure HTML, CSS, and JavaScript
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ No installation or build tools required — this is a static, single-file web ap
 
 That's it — no server or dependencies needed.
 
-## 🧩 How It Works
+##  How It Works
 
 1. The user selects their date of birth using the HTML `<input type="date">` field.
 2. On clicking **Calculate Age**, JavaScript compares the birth date with the current date.
@@ -50,32 +50,15 @@ That's it — no server or dependencies needed.
    - **Senior Citizen** — 60 and above
 6. All results are displayed dynamically in a styled result card.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── index.html      # Main application file (HTML + CSS + JS)
 └── README.md        # Project documentation
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-
----
 
 ⭐ If you found this project useful, consider giving it a star on GitHub!
