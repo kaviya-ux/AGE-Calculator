@@ -2,10 +2,6 @@
 
 A simple, clean, and responsive web app that calculates your exact age from your date of birth — along with your birth day, birth month, and life stage — built with **HTML, Tailwind CSS, and vanilla JavaScript**.
 
-## 🔗 Live Demo
-
-https://kaviya-ux.github.io/AGE-Calculator/
-
 ##  Features
 
 - 📅 Pick your Date of Birth using a simple date picker
@@ -68,14 +64,6 @@ That's it — no server or dependencies needed.
 ├── index.html      # Main application file (HTML + CSS + JS)
 └── README.md        # Project documentation
 ```
-
-## 🛠️ Possible Improvements
-
-- [ ] Add age in months, weeks, and days
-- [ ] Add a countdown to the next birthday
-- [ ] Add dark mode toggle
-- [ ] Animate the result card on display
-- [ ] Add input validation for future dates
 
 ## 🤝 Contributing
 
