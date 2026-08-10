@@ -1,4 +1,4 @@
-# 🎂 Age Calculator
+#  Age Calculator
 
 A simple, clean, and responsive web app that calculates your exact age from your date of birth — along with your birth day, birth month, and life stage — built with **HTML, Tailwind CSS, and vanilla JavaScript**.
 
@@ -6,7 +6,7 @@ A simple, clean, and responsive web app that calculates your exact age from your
 
 https://kaviya-ux.github.io/AGE-Calculator/
 
-## ✨ Features
+##  Features
 
 - 📅 Pick your Date of Birth using a simple date picker
 - 🧮 Instantly calculates your **exact age in years**
@@ -15,14 +15,6 @@ https://kaviya-ux.github.io/AGE-Calculator/
 - 🕒 Shows the **current date and year** for reference
 - 💻 Fully responsive UI powered by **Tailwind CSS**
 - ⚡ Zero dependencies — pure HTML, CSS, and JavaScript
-
-## 🖥️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| HTML5 | Page structure |
-| Tailwind CSS (CDN) | Styling and layout |
-| JavaScript (Vanilla) | Age calculation logic |
 
 ## 📸 Preview
 
