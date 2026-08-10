@@ -12,14 +12,6 @@ A simple, clean, and responsive web app that calculates your exact age from your
 - 💻 Fully responsive UI powered by **Tailwind CSS**
 - ⚡ Zero dependencies — pure HTML, CSS, and JavaScript
 
-## 📸 Preview
-
-Add a screenshot of the app here for a more polished README:
-
-```
-<img width="544" height="442" alt="image" src="https://github.com/user-attachments/assets/5dbd9004-c370-4ae5-90c2-e284396d6859" />
-
-```
 
 ## 🚀 Getting Started
 
