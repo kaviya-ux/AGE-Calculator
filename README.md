@@ -50,11 +50,4 @@ That's it — no server or dependencies needed.
    - **Senior Citizen** — 60 and above
 6. All results are displayed dynamically in a styled result card.
 
-##  Project Structure
-
-```
-├── index.html      # Main application file (HTML + CSS + JS)
-└── README.md        # Project documentation
-```
-
 ⭐ If you found this project useful, consider giving it a star on GitHub!
