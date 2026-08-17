@@ -13,30 +13,6 @@ A simple, clean, and responsive web app that calculates your exact age from your
 - ⚡ Zero dependencies — pure HTML, CSS, and JavaScript
 
 
-##  Getting Started
-
-### Prerequisites
-
-No installation or build tools required — this is a static, single-file web app.
-
-### Run Locally
-
-1. Clone the repository
-   ```bash
-   https://github.com/kaviya-ux/AGE-Calculator
-   ```
-2. Navigate into the project folder
-   ```bash
-   cd <AGE-Calculator>
-   ```
-3. Open `index.html` in your browser
-   ```bash
-   open index.html   # macOS
-   start index.html  # Windows
-   ```
-
-That's it — no server or dependencies needed.
-
 ##  How It Works
 
 1. The user selects their date of birth using the HTML `<input type="date">` field.
