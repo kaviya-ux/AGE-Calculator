@@ -4,13 +4,13 @@ A simple, clean, and responsive web app that calculates your exact age from your
 
 ##  Features
 
-- 📅 Pick your Date of Birth using a simple date picker
-- 🧮 Instantly calculates your **exact age in years**
-- 📆 Displays your **birth day** and **birth month** by name
-- 🏷️ Classifies you into a life stage — **Child, Teenager, Adult, or Senior Citizen**
-- 🕒 Shows the **current date and year** for reference
-- 💻 Fully responsive UI powered by **Tailwind CSS**
-- ⚡ Zero dependencies — pure HTML, CSS, and JavaScript
+-  Pick your Date of Birth using a simple date picker
+-  Instantly calculates your **exact age in years**
+-  Displays your **birth day** and **birth month** by name
+-  Classifies you into a life stage — **Child, Teenager, Adult, or Senior Citizen**
+-  Shows the **current date and year** for reference
+-  Fully responsive UI powered by **Tailwind CSS**
+-  Zero dependencies — pure HTML, CSS, and JavaScript
 
 
 ##  How It Works
