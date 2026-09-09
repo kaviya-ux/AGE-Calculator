@@ -54,7 +54,3 @@ age-calculator/
 - Add a "days until next birthday" countdown
 - Support selecting a different "as of" date instead of always using today
 - Add input validation to reject future dates of birth
-
-## License
-
-Free to use for learning or personal projects.
