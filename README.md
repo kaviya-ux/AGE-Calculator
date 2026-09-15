@@ -1,4 +1,4 @@
-# 🎂 Age Calculator
+# Age Calculator
 
 A simple age calculator built with HTML, Tailwind CSS, and vanilla JavaScript. Enter a date of birth and instantly see your exact age along with extra details like your birth day, birth month, and life stage.
 
