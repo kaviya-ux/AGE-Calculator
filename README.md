@@ -42,9 +42,11 @@ age-calculator/
 ## Running Locally
 
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/kaviya-ux/AGE-Calculator.git
-   ```
+
+```
+git clone https://github.com/kaviya-ux/AGE-Calculator.git
+```
+
 2. Make sure `index.html` and `script.js` stay in the same folder, and that `index.html` includes `<script src="script.js"></script>` before the closing `</body>` tag.
 3. Open `index.html` in your browser.
 
