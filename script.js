@@ -1,49 +1,54 @@
+const days = [
+  "Sunday", "Monday", "Tuesday", "Wednesday",
+  "Thursday", "Friday", "Saturday"
+];
+
+const months = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
 function calculateAge() {
-    let dob = document.getElementById("dob").value;
-    if(dob === ""){
-        alert("Please select your Date of Birth");
-        return;
-    }
-    let birthDate = new Date(dob);
-    let today = new Date();
-    let age = today.getFullYear() - birthDate.getFullYear();
-    let month = today.getMonth() - birthDate.getMonth();
-    if(month < 0 || (month === 0 && today.getDate() < birthDate.getDate())){
-        age--;
-    }
-    // Day Names
-    let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    
-    // Month Names
-    let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    let birthDay = days[birthDate.getDay()];
-    let birthMonth = months[birthDate.getMonth()];
-    let status = "";
-    if(age < 13){
-        status = "Child";
-    }
-    else if(age < 20){
-        status = "Teenager";
-    }
-    else if(age < 60){
-        status = "Adult";
-    }
-    else{
-        status = "Senior Citizen";
-    }
-    let result = document.getElementById("result");
-    result.classList.remove("hidden");
-    result.innerHTML = `
-        <h2 class="text-2xl font-bold text-center text-blue-600 mb-4">
-            Age Details
-        </h2>
-        <p class="mb-2"><strong>Age :</strong> ${age} Years</p>
-        <p class="mb-2"><strong>Date of Birth :</strong> ${dob}</p>
-        <p class="mb-2"><strong>Birth Day :</strong> ${birthDay}</p>
-        <p class="mb-2"><strong>Birth Month :</strong> ${birthMonth}</p>
-        <p class="mb-2"><strong>Birth Year :</strong> ${birthDate.getFullYear()}</p>
-        <p class="mb-2"><strong>Current Date :</strong> ${today.toLocaleDateString()}</p>
-        <p class="mb-2"><strong>Current Year :</strong> ${today.getFullYear()}</p>
-        <p class="mb-2"><strong>Status :</strong> ${status}</p>
-    `;
+  const dobInput = document.getElementById("dob").value;
+  const resultDiv = document.getElementById("result");
+
+  if (!dobInput) {
+    alert("Please select your date of birth.");
+    return;
+  }
+
+  const dob = new Date(dobInput);
+  const today = new Date();
+
+  let age = today.getFullYear() - dob.getFullYear();
+  const hasHadBirthdayThisYear =
+    today.getMonth() > dob.getMonth() ||
+    (today.getMonth() === dob.getMonth() && today.getDate() >= dob.getDate());
+
+  if (!hasHadBirthdayThisYear) {
+    age--;
+  }
+
+  const birthDay = days[dob.getDay()];
+  const birthMonth = months[dob.getMonth()];
+
+  let lifeStage;
+  if (age < 13) {
+    lifeStage = "Child";
+  } else if (age < 20) {
+    lifeStage = "Teenager";
+  } else if (age < 60) {
+    lifeStage = "Adult";
+  } else {
+    lifeStage = "Senior Citizen";
+  }
+
+  resultDiv.innerHTML = `
+    <p><strong>Age:</strong> ${age} years</p>
+    <p><strong>Born on:</strong> ${birthDay}, ${birthMonth} ${dob.getDate()}, ${dob.getFullYear()}</p>
+    <p><strong>Today:</strong> ${days[today.getDay()]}, ${months[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}</p>
+    <p><strong>Life Stage:</strong> ${lifeStage}</p>
+  `;
+
+  resultDiv.classList.remove("hidden");
 }
